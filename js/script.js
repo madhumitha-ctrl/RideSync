@@ -39,15 +39,12 @@ if (registerBtn) {
         let email = document.getElementById("email").value;
         let phone = document.getElementById("phone").value;
         let password = document.getElementById("password").value;
+        let gender = document.getElementById("gender").value;
+        let collegeId = document.getElementById("collegeId").value;
         let confirmPassword = document.getElementById("confirmPassword").value;
 
-        if (
-            name === "" ||
-            email === "" ||
-            phone === "" ||
-            password === "" ||
-            confirmPassword === ""
-        ) {
+        if(name === "" || email === "" ||phone === "" ||gender === "" ||
+   collegeId === "" ||password === "" ||confirmPassword === "") {
 
             alert("Please fill all fields");
 
